@@ -1,29 +1,29 @@
 body {
-  background-image: url(../img/paper-texture.jpg);
-  background-repeat: repeat;
+  background-image: url(../img/black-ocean.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 /* Main content */
 main {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
 main p {
   line-height: 8px;
+  color: white;
 }
 
 .tw-title {
   margin: 20px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   text-align: center;
+  color: white;
 }
 
-.tw-song {
-  color: navy;
-}
 
 .tw-lyrics {
   display: flex;
