@@ -5,3 +5,98 @@ body {
 }
 
 /* Main content */
+main {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+}
+
+main p {
+  line-height: 8px;
+}
+
+.tw-title {
+  margin: 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tw-song {
+  color: navy;
+}
+
+.tw-lyrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tw-v1 {
+  margin: 20px;
+}
+
+.tw-c1 {
+  margin: 20px;
+}
+
+.tw-v2 {
+  margin: 20px;
+}
+
+.tw-c2 {
+  margin: 20px;
+}
+
+.tw-v3 {
+  margin: 20px;
+}
+
+.tw-c3 {
+  margin: 20px;
+}
+
+.tw-v4 {
+  margin: 20px;
+}
+
+.tw-c4 {
+  margin: 20px;
+}
+
+.tw-b1 {
+  margin: 20px;
+}
+
+.tw-b2 {
+  margin: 20px;
+}
+
+.tw-b3 {
+  margin: 20px;
+}
+
+.tw-b4 {
+  margin: 20px;
+}
+
+.tw-ending {
+  margin: 20px;
+  font-size: 26px;
+}
+
+.tw-final-lyrics {
+  margin: 20px;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tw-closer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+  text-align: center;
+}
