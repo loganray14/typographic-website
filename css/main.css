@@ -1,0 +1,154 @@
+.gb-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; 
+  background-color: #B20908;
+  top: 0; 
+  width: 100%; 
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+  background-color: #B20908;
+  padding: 20px;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.gb-buttons {
+  margin: 60px;
+}
+
+.gb-buttons a:hover {
+  border: 5px solid white;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Change background on mouse-over */
+
+body {
+  background-image: url(../img/paper-texture.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* Main content */
+main {
+  margin: 8%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+main h1 {
+  margin-top: 150px;
+}
+
+main p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+.gb-landing {
+  margin: 5%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gb-body-text {
+  font-weight: 700;
+}
+
+.gb-logo {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.gb-employees {
+  border: 10px solid #B20908;
+  margin-top: 150px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.gb-body-text {
+  font-size: x-large;
+}
+
+.gb-order-button{
+  border-radius: 20px;
+  max-width:fit-content;
+}
+
+.gb-order-button:hover {
+  border: 5px solid white;
+  color: white;
+  border-radius: 20px;
+}
+
+.gb-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.gb-menu p {
+  font-weight: 700;
+}
+
+.gb-menu h2 {
+  color: #B20908;
+  border-style: none none solid none;
+}
+
+.gb-order {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gb-order h3 {
+  color: #B20908;
+  border-style: none none solid none;
+}
+
+.gb-thanks {
+  margin-top: 150px;
+}
+
+.gb-thanks h2 {
+  color: #B20908;
+}
+
+.gb-locations {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gb-locations h2 {
+  color: #B20908;
+}
+
+.gb-locations p {
+  line-height: 2px;
+  font-weight: 700;
+}
+
+.gb-contact {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
